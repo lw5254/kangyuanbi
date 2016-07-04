@@ -1,0 +1,33 @@
+  QToolButton { /* all types of tool button */
+  background-color: transparent;
+  }
+QToolBar{
+}
+QToolButton {
+    background-color: transparent;
+    border: 1px transparent #4A4949;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 3px;
+}
+
+QToolButton:hover, QToolButton::menu-button:hover {
+border:2px groove gray;
+border-radius:23px;
+padding:2px 4px;
+}
+
+QToolButton:checked, QToolButton:pressed,QToolButton::menu-button:pressed {
+border:2px groove gray;
+border-radius:23px;
+padding:2px 4px;
+}
+
+QListView::item:hover{
+border:2px groove gray;
+border-radius:23px;
+padding:2px 4px;
+}
+QDialog{
+background-color:white;
+}
